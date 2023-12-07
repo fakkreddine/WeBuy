@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Fjalla+One&family=Oswald:wght@500&family=Roboto&family=Work+Sans:wght@700&display=swap');
+
+.end{
+  background-image: url('../res/feetBack.png');
+ 
+ background-repeat: no-repeat;
+
+  
+  background-size: cover;
+  background-position:center;
+    
+    width: 100%;
+    height: 100%;
+}
+.feet{
+ 
+
+
+ background-image: url('../res/feetBack.png');
+ 
+ background-repeat: no-repeat;
+
+  
+  background-size: cover;
+  background-position:center;
+    
+    width: 100%;
+    height: 100%;
+   
+   
+}
+.cont{
+  height: 70vh;
+}
+
+cont .btn{
+  background-color:#ff3852 ;
+
+    color: #ffffff;
+
+
+
+}
+.feet  .head{
+  font-family: 'Arvo', serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;  
+  color: #ffffff;
+  line-height: 36px;
+  z-index: 1;
+  text-align: left;
+  letter-spacing: -1;
+}
+.desc{
+  color: #ffffff;
+font-family: Poppins, sans-serif;
+font-size: 14px;
+line-height: 21px;
+
+
+
+}
+span[name="word"]{
+  color: ;
+}
+
+
+img{
+  filter: grayscale(0);
+}
+
+
+
+
+.cont .b {
+  padding: 1.1em 2em;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 12px;
+  background-color: #ff3852;
+  font-weight: bolder;
+  
+ }
+ 
+ .cont .b:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 120%;
+  background-color: #ff3852;
+  top: 50%;
+  transform: skewX(30deg) translate(-150%, -50%);
+  transition: all 0.5s;
+ }
+ 
+ .cont.b:hover {
+  background-color: white;
+  color: #ff3852;
+  box-shadow: 0 2px 0 2px #0d3b66;
+ }
+ 
+ .cont.b:hover::before {
+  transform: skewX(30deg) translate(150%, -50%);
+  transition-delay: 0.1s;
+ }
+ 
+ .cont.b:active {
+  transform: scale(0.9);
+ }
+

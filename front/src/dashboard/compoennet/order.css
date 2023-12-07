@@ -1,0 +1,7 @@
+.order{
+    background-color: var(--dark-bg);
+    padding: 18px;
+   border:2px solid  var(--soft-col);
+   border-radius: 5px;
+   width: 400px;
+}

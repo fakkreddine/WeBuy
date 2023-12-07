@@ -1,0 +1,29 @@
+@import "../global.css";
+
+
+.tit{
+    color: var(--soft-col);
+}
+.links{
+    color: var(--main-col); 
+}
+.ant-layout-sider-children{
+    background-color:  var( --dark-bg) ;
+}
+.c{
+   
+    background-color:  var( --dark-bg) ;
+    display: flex;
+    gap: 20px;
+   
+}
+.ca{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+a{
+    text-decoration: none;
+    color:var( --main-col) ;
+}

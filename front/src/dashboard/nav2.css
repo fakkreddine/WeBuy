@@ -1,0 +1,27 @@
+@import "../global.css";
+
+img[name="userimg"]{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.nav2c{
+    background-color:  var( --dark-bg) ;
+    width: 100%;
+   
+    padding: 20px;
+    
+  
+}
+.logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+@import "../../global.css";
+.topuser{
+    background-color: var(--dark-bg);
+    padding: 18px;
+   border:2px solid  var(--soft-col);
+   border-radius: 5px;
+   width: 400px;
+  
+}
+.topuser h1{
+    color: var(--main-col);
+
+}
+
+span{
+    color: var(--soft-col) ;
+
+   font-weight: 500;
+   }
+   
+   .cost{
+    color: var(--main-col);
+   }

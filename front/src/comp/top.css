@@ -1,0 +1,17 @@
+.top{
+  width: 100%;
+ 
+  background-image: url(../res/back.jpeg);
+    
+ 
+   
+      }
+  .img{
+    width  : 1242px ;
+    
+  }
+
+.media img {
+  width: 45px;
+  height: 45px;
+}

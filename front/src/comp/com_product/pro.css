@@ -1,0 +1,139 @@
+
+a{
+  height: 45%;
+}
+
+.dis{
+  height: 20%;
+  width: 100%;
+}
+.pin{
+  width: 100%;
+}
+.card {
+   
+    padding: .8em;
+    background: #ffffff;
+       width: 30%;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   }
+   
+   .card-img {
+  
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+    
+   }
+   .card-img img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+   }
+   .card-info {
+    padding-top: 10%;
+   }
+   
+   svg[name='f' ] {
+    width: 20px;
+    height: 20px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding-top:10px;
+    
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+   }
+   
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+   }
+   
+   /*Button*/
+   .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .card-button:hover {
+    border: 1px solid #ff3852;
+    background-color: #ff3852;
+ 
+   
+   }
+   
+
+
+
+
+   .discount {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    margin: 100px auto;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: auto;
+    height: 30px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e57373;
+    text-align: center;
+    border-radius:4px;
+    padding:0 15px;
+    margin: 0px;
+  }
+  .discount:after {
+    content: " ";
+    
+    background:#fff;
+    position: absolute;
+    top:4px;
+    left:-9px;
+    border-radius:4px;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);  
+  }
+  .discount:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #e57373;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,16 @@
+.tot{
+    background-color: var(--dark-bg);
+    padding: 18px;
+   border:2px solid  var(--soft-col);
+   border-radius: 5px;
+   width: 400px;
+   
+}
+.a{
+    color: red;
+}
+.head img {
+    object-fit: contain;
+    width:40px ;
+    height: 40px;
+}

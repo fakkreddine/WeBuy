@@ -1,0 +1,15 @@
+div[name='all']{
+    background-color: #f1f1f2;
+    height: 100%;
+    
+   
+}
+div[name='cont']{
+    background-color: #ffffff;
+    height: 100%;
+    width: 80%;
+   
+}
+button[name="com"]{
+    width: 100%;
+}

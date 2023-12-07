@@ -1,0 +1,95 @@
+span{
+    color: black;
+    
+    font-size: 1em;
+    line-height: 1.5;
+}
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ff3852  ;
+   }
+   .image{
+    background-color: #ff3852;
+   }
+
+
+
+
+
+
+
+   [id=priceATC] {
+    float:left;
+    clear: left;
+    margin-top: -2px;
+    margin-bottom: 2px;
+  }
+  input[type=number] {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+    outline: 0;
+    height: 32px;
+    width: 3em;
+    text-align: center;
+    border: 2px solid #e1e1e1;
+    margin: 0;
+    -moz-appearance: textfield;
+  }
+  input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .button1 {
+    margin-top: 2px;
+    margin-left: 6px;
+    float: left;
+    display: inline-block;
+    background: #AC796A;
+    border-radius: 3px;
+    border: 0;
+    height: 30px;
+    white-space: nowrap;
+    padding: 0 15px;
+    overflow: visible;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 29px;
+    text-indent: 0!important;
+    text-shadow: none;
+    text-align: center!important;
+    color: white;
+    text-decoration: none!important;
+    -webkit-appearance: none;
+  }
+  
+  .icon-minus-squared,
+  .icon-plus-squared{
+    width: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color:#ff3852 ;
+    color:#fff;
+    text-align:center;
+    cursor: pointer;
+    font: bold 18px/30px "arial";
+    -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  }
+  .off {cursor: default;opacity:.3;}
+  .error {
+    float: left;
+    clear: left;
+  }
+  
+  .d{
+   font-family:Geograph, Helvetica, Arial, sans-serif;
+   font-size: 16px  ;
+   line-height: 24px;
+   letter-spacing: 0.5px;
+   color: #212a2f;
+  }

@@ -1,0 +1,24 @@
+
+
+div[name="sign"]{
+ 
+    height: 100%;
+    background-color: #f2f2f2;
+}
+img[name="bak"]{width: 100%;
+    height: 100%;
+}
+span[name="c"]{
+    color: #ff3852;
+}
+    
+        
+.logo{
+    width:170px;
+    height: 40px;
+    
+}
+div[name="steps"]{
+    width: 85%;
+
+}

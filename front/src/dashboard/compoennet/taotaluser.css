@@ -1,0 +1,26 @@
+@import "../../global.css";
+
+
+.Totaluser{
+    background-color: var(--dark-bg);
+    padding: 18px;
+   border:2px solid  var(--soft-col);
+   border-radius: 5px;
+   width: 400px;
+   
+}
+.head {
+    color:var(--main-col) ;
+    font-weight: 500;
+    font-size: 20px;
+   }
+
+   .topuserFeet span {
+    margin-right:10px ;
+
+   }
+   .month{
+    color: rgb(3, 152, 3);
+   
+    font-weight: 700;
+   }
